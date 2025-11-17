@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: product-service
+server:
+  port: 0 # allow override by eureka or local
+product:
+  message: "Hello from Config Server (product-service)"
