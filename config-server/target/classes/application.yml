@@ -1,8 +1,16 @@
 server:
   port: 8888
+service:
+  application:
+    name: test
 spring:
+  application:
+    name: "hello world"
   cloud:
+    compatibility-verifier:
+      enabled: false
     config:
       server:
         git:
-          uri: classpath:/config-repo
+          skip-ssl-validation: false
+          uri: https://github.com/hachim-soutra/spring-server-config
