@@ -1,11 +1,8 @@
 server:
   port: 8888
-service:
-  application:
-    name: test
 spring:
   application:
-    name: "hello world"
+    name: "hello-world"
   cloud:
     compatibility-verifier:
       enabled: false
